@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /login
+Disallow: /result-pay
+Disallow: /pay
+Disallow: /request-password-reset
+Disallow: /reset-password
+Disallow: /events
+Disallow: /success-pay
+Disallow: /fail-pay
+Disallow: /matches/txt
+Disallow: /matches/cal
+Disallow: /web/pars.php
+Disallow: /web/serch.php
+Disallow: /web/fifty.php
+Host: https://footballcharts.ru/

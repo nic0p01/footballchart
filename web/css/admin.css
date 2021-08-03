@@ -1,0 +1,197 @@
+/*
+Theme Name: Stats
+Version: 1.0
+Author: nic0p01
+*/
+body{
+    background-color: #f8f9fa;
+    color: #5f6368;
+    font-family: 'Roboto', sans-serif!important;
+}
+a{
+    color: #5f6368;
+}
+h1{
+    font-size: 22pt;
+    text-align: center;
+}
+h2{
+    font-size: 18pt;
+}
+h3{
+    font-size: 14pt;
+}
+.aside{
+    background-color: white;
+    height: 100%;
+   -webkit-box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+padding: 15px;
+position: relative;
+}
+.content{
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+padding: 15px;
+margin-top: 60px;
+}
+
+.site{
+    margin-right: 0;
+    margin-left: 0;
+}
+.site .col-md-10{
+    padding-left: 0;
+}
+.wtitle{
+    text-align: center;
+}
+caption{
+    text-align: center;
+}
+.html{
+    position: fixed;
+}
+.overlay{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(95,99,104,.5);
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+}
+.needsub{
+    text-align: center;
+    font-weight: bolder;
+}
+.logo{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+    box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+}
+.logo img{
+    width: 31%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sidebar{
+    position: fixed;
+    top: 60px;
+    width: 15%;
+    left: 13px;
+    padding: 15px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+    box-shadow: 0px 0px 19px -17px rgba(0,0,0,1);
+}
+.under-line{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+.red{
+    color: #ee423e;
+}
+.link-list{
+    margin-bottom: 60px;
+}
+.link-list .img{
+    text-align: center;
+}
+.link-list img{
+    width: 76px!important;
+    height: 78px;
+}
+.link-list .title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 28px;
+    text-decoration: underline;
+}
+.link-list .desc{
+    text-align: center;
+}
+.wrp{
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.21);
+}
+.wrp .desc{
+    min-height: 40px;
+}
+.upper{
+    text-transform: uppercase;
+}
+
+.button{
+    margin-bottom: 60px;
+}
+.button img{
+    width: 25%;
+}
+
+.mt15{
+    margin-top: 15px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mt45{
+    margin-top: 45px;
+}
+.f16{
+    font-size: 16px;
+}
+.sform{
+    width: 50%;
+    margin: auto;
+}
+.first-button{
+    width: 50%;
+    height: auto;
+}
+.modal_pay_wrapp{
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,0.75);
+    width: 100%;
+    height: 100vh;
+    top: 50px;
+    z-index: 100;
+}
+.modal_pay{
+    background-color: white;
+    position: fixed;
+    top: 100px;
+    right: 2%;
+    width: 78%;
+    height: 80%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.mod_title{
+    margin-bottom: 45px;
+}
+
+.img-preview{
+    width: 100%;
+}
