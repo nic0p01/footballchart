@@ -12,19 +12,19 @@ class Robokassa extends Component {
 	/**
 	 * URL использующийся для тестовых операций
 	 */
-	const ACTION_TEST = 'http://test.robokassa.ru/Index.aspx';
+	const ACTION_TEST = '';
 	
 	/**
 	 * URL живого сервера приема оплаты
 	 */
-	const ACTION_LIVE = 'https://merchant.roboxchange.com/Index.aspx';
+	const ACTION_LIVE = '';
 	
 	/**
 	 * Логин продавца (Задаётся в настройках магазина)
 	 * 
 	 * @var string 
 	 */
-	public $login = 'footballchartsru';
+	public $login = '';
 	
 	/**
 	 * Пароль для проведения платежных операций (Задаётся в настройках магазина)
@@ -32,14 +32,14 @@ class Robokassa extends Component {
 	 * @var string
 	 */
 //	public $password1 = 'CRq04hB2NoLmJs2Arw3g';
-        public $password1 = 'U75OLse2KjbUp5KGv4oM';
+        public $password1 = '';
 	/**
 	 * Пароль для проверки ответа (Задаётся в настройках магазина)
 	 * 
 	 * @var string 
 	 */
 //	public $password2 = 'rGR28bCKBObII4K2d8GR';
-        public $password2 = 'eUvdyfA49vrAR64w5nNP';
+        public $password2 = '';
 	
 	/**
 	 * Уникальный номер транзакции. Если не задан, то робокасса присвоит свой
